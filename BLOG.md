@@ -34,3 +34,14 @@ Erstellung der Server-Socket plugin  Status: Laufend
 
 Erstellung der 1. Version der Inhaltverzeichnis des Proposal  Status: Abgeschlossen
 Erstellung der Unterkapitel Action Units     Status: Laufend
+
+***********************************************************************************
+Fortschritte in der:
+KW 48 von 23.11 bis 28.11.2020
+
+Erweiterung der clientSocket plugin              Status: Laufend
+Erstellung der 1. Version der ASTeRICS-Modell    Status: Laufend
+Erstellung der Unterkapitel OpenFace             Status: Laufend
+
+Java Version 14 wurde deisnstalliert und die Version 8 installiert. 
+Der Java Source code muss angepasst werden für die version 8.
