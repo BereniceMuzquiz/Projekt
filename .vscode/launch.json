@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ClientSocket2",
+            "request": "launch",
+            "mainClass": "ClientSocket2",
+            "projectName": "ServerClientSocketProgramm_1e5b2e4e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ServerSocket2",
+            "request": "launch",
+            "mainClass": "ServerSocket2",
+            "projectName": "ServerClientSocketProgramm_1e5b2e4e"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Server",
             "request": "launch",
             "mainClass": "Server",

@@ -45,3 +45,13 @@ Erstellung der Unterkapitel OpenFace             Status: Laufend
 
 Java Version 14 wurde deisnstalliert und die Version 8 installiert. 
 Der Java Source code muss angepasst werden für die version 8.
+**********************************************************************************
+Fortschritte in der:
+KW 49 von 30.11 bis 06.12.2020
+
+Erstellung der clientSocket plugin                      Status: Abgeschlossen
+Erstellung der 1. Version der ASTeRICS-Modell           Status: Laufend
+Erstellung der Unterkapitel OpenFace                    Status: Laufend
+Erstellung der Kapitel AsTeRICS Framework               Status: Laufend
+Erstellung der Fertige Inhaltverzeichnis des Proposal   Status: Abgeschlossen
+Erweiterung der StringSplitter-Plugin                   Status: Abgeschlossen
