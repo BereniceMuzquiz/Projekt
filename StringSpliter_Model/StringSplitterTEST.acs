@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Desktop\stringSplitterTEst2.acs_2020_12_9_17_40" version="20130320">
+  <components>
+    <component id="ClientSocket.1" type_id="asterics.ClientSocket">
+      <description>The plugin connects to a server socket, reads the data and sends it to the output port</description>
+      <ports>
+        <inputPort portTypeID="inA">
+          <properties />
+        </inputPort>
+        <inputPort portTypeID="inB">
+          <properties />
+        </inputPort>
+        <outputPort portTypeID="outA">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="outB">
+          <properties />
+        </outputPort>
+      </ports>
+      <properties>
+        <property name="hostname" value="localhost" />
+        <property name="port" value="1111" />
+        <property name="protocol" value="0" />
+      </properties>
+      <layout>
+        <posX>40</posX>
+        <posY>40</posY>
+      </layout>
+    </component>
+    <component id="Start Index 0" type_id="asterics.StringSplitter">
+      <description>Split the string in up to 16 strings</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+        <outputPort portTypeID="out1">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out2">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out3">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out4">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out5">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out6">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out7">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out8">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out9">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out10">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out11">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out12">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out13">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out14">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out15">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out16">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out17">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out18">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out19">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out20">
+          <properties />
+        </outputPort>
+      </ports>
+      <properties>
+        <property name="Seperator" value="," />
+        <property name="Start Index" value="0" />
+      </properties>
+      <layout>
+        <posX>188</posX>
+        <posY>58</posY>
+      </layout>
+    </component>
+    <component id="Input String" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="Input String" />
+        <property name="default" value="smoll" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>42</posX>
+        <posY>214</posY>
+      </layout>
+      <gui>
+        <posX>10</posX>
+        <posY>565</posY>
+        <width>9375</width>
+        <height>556</height>
+      </gui>
+    </component>
+    <component id="Index 1" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="Index 1" />
+        <property name="default" value="" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>448</posX>
+        <posY>166</posY>
+      </layout>
+      <gui>
+        <posX>1688</posX>
+        <posY>2000</posY>
+        <width>1438</width>
+        <height>1333</height>
+      </gui>
+    </component>
+    <component id="index 3" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="index 3" />
+        <property name="default" value="" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>852</posX>
+        <posY>140</posY>
+      </layout>
+      <gui>
+        <posX>1697</posX>
+        <posY>3676</posY>
+        <width>1438</width>
+        <height>1222</height>
+      </gui>
+    </component>
+    <component id="Start Index 2" type_id="asterics.StringSplitter">
+      <description>Split the string in up to 16 strings</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+        <outputPort portTypeID="out1">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out2">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out3">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out4">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out5">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out6">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out7">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out8">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out9">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out10">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out11">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out12">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out13">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out14">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out15">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out16">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out17">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out18">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out19">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out20">
+          <properties />
+        </outputPort>
+      </ports>
+      <properties>
+        <property name="Seperator" value="," />
+        <property name="Start Index" value="2" />
+      </properties>
+      <layout>
+        <posX>606</posX>
+        <posY>105</posY>
+      </layout>
+    </component>
+    <component id="Start Index   0" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="Start Index   0" />
+        <property name="default" value="" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>328</posX>
+        <posY>29</posY>
+      </layout>
+      <gui>
+        <posX>125</posX>
+        <posY>2000</posY>
+        <width>1438</width>
+        <height>1333</height>
+      </gui>
+    </component>
+    <component id="index 4" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="index 4" />
+        <property name="default" value="" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>736</posX>
+        <posY>290</posY>
+      </layout>
+      <gui>
+        <posX>3250</posX>
+        <posY>3667</posY>
+        <width>1375</width>
+        <height>1222</height>
+      </gui>
+    </component>
+    <component id="Index 2" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="Index 2" />
+        <property name="default" value="" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>322</posX>
+        <posY>254</posY>
+      </layout>
+      <gui>
+        <posX>3250</posX>
+        <posY>2000</posY>
+        <width>1375</width>
+        <height>1333</height>
+      </gui>
+    </component>
+    <component id="Index 3" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="Index 3" />
+        <property name="default" value="" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>443</posX>
+        <posY>356</posY>
+      </layout>
+      <gui>
+        <posX>4750</posX>
+        <posY>2000</posY>
+        <width>1375</width>
+        <height>1333</height>
+      </gui>
+    </component>
+    <component id="start index 2" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="start index 2" />
+        <property name="default" value="" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>725</posX>
+        <posY>20</posY>
+      </layout>
+      <gui>
+        <posX>135</posX>
+        <posY>3676</posY>
+        <width>1438</width>
+        <height>1222</height>
+      </gui>
+    </component>
+    <component id="index 5" type_id="asterics.TextDisplay">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="index 5" />
+        <property name="default" value="" />
+        <property name="textPosition" value="1" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>855</posX>
+        <posY>407</posY>
+      </layout>
+      <gui>
+        <posX>4750</posX>
+        <posY>3667</posY>
+        <width>1375</width>
+        <height>1222</height>
+      </gui>
+    </component>
+  </components>
+  <channels>
+    <channel id="binding.0">
+      <source>
+        <component id="ClientSocket.1" />
+        <port id="outA" />
+      </source>
+      <target>
+        <component id="Start Index 0" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.1">
+      <source>
+        <component id="ClientSocket.1" />
+        <port id="outA" />
+      </source>
+      <target>
+        <component id="Input String" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.3">
+      <source>
+        <component id="Start Index 0" />
+        <port id="out1" />
+      </source>
+      <target>
+        <component id="Start Index   0" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.2">
+      <source>
+        <component id="ClientSocket.1" />
+        <port id="outA" />
+      </source>
+      <target>
+        <component id="Start Index 2" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.7">
+      <source>
+        <component id="Start Index 0" />
+        <port id="out2" />
+      </source>
+      <target>
+        <component id="Index 1" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.10">
+      <source>
+        <component id="Start Index 2" />
+        <port id="out1" />
+      </source>
+      <target>
+        <component id="start index 2" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.12">
+      <source>
+        <component id="Start Index 2" />
+        <port id="out3" />
+      </source>
+      <target>
+        <component id="index 4" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.8">
+      <source>
+        <component id="Start Index 0" />
+        <port id="out3" />
+      </source>
+      <target>
+        <component id="Index 2" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.9">
+      <source>
+        <component id="Start Index 0" />
+        <port id="out4" />
+      </source>
+      <target>
+        <component id="Index 3" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.11">
+      <source>
+        <component id="Start Index 2" />
+        <port id="out2" />
+      </source>
+      <target>
+        <component id="index 3" />
+        <port id="input" />
+      </target>
+    </channel>
+    <channel id="binding.13">
+      <source>
+        <component id="Start Index 2" />
+        <port id="out4" />
+      </source>
+      <target>
+        <component id="index 5" />
+        <port id="input" />
+      </target>
+    </channel>
+  </channels>
+  <modelGUI>
+    <Decoration>true</Decoration>
+    <Fullscreen>false</Fullscreen>
+    <AlwaysOnTop>false</AlwaysOnTop>
+    <ToSystemTray>false</ToSystemTray>
+    <ShopControlPanel>true</ShopControlPanel>
+    <AREGUIWindow>
+      <posX>-50</posX>
+      <posY>111</posY>
+      <width>10000</width>
+      <height>9889</height>
+    </AREGUIWindow>
+  </modelGUI>
+</model>
