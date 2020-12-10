@@ -10,7 +10,7 @@ public class ServerThread extends Thread {
 
     static String clientConnected;
     //static File file = new File("C:\\Users\\beren\\Documents\\5_Semester\\PROJEKT\\OpenFace_2.2.0_win_x64\\OpenFace_2.2.0_win_x64\\processed\\webcam_2020-11-13-12-58.csv");
-    static File file = new File("C:\\Desktop\\webcam_2020-12-08-20-24.csv");
+    static File file = new File("C:\\Desktop\\prueba.csv");
     static String myPath; // path to string to send it to client 
     static String trackedData;
     public BufferedWriter writer;
@@ -44,16 +44,18 @@ public class ServerThread extends Thread {
 
     // Method to get tracking-data
     public void getTrackedData() {
-        int i = 1;
+        int i = 0;
         try {
-            File file = new File("C:\\Users\\beren\\Pictures\\openface-AU\\webcam_2020-11-22-00-05.csv");
-
-            FileReader fr = new FileReader(file); // reads the file
-            BufferedReader br = new BufferedReader(fr); // creates a buffering character input stream
-
+            //File file = new File("C:\\Users\\beren\\Pictures\\openface-AU\\webcam_2020-11-22-00-05.csv");
+            File file = new File("C:\\Users\\beren\\Documents\\5_Semester\\PROJEKT\\webcam_2020-12-08-20-24.csv"); //C:\Users\beren\Documents\5_Semester\PROJEKT
+            
+            //FileReader fr = new FileReader(file); // reads the file
+            //BufferedReader br = new BufferedReader(fr); // creates a buffering character input stream
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String linea;
             System.out.println("Contents of File: ");
-            while (br.readLine() != null) {
-                String linea = br.readLine();
+            while ((linea = br.readLine()) != null) {
+                //String linea = br.readLine();
                 writer.write(linea);
                 writer.newLine();
                 writer.flush();
@@ -62,8 +64,8 @@ public class ServerThread extends Thread {
                 //}
                 i++;
             }
-            fr.close(); // closes the stream and release the resources
-                        
+            //fr.close(); // closes the stream and release the resources
+            br.close();          
         } catch (IOException e) {
             e.printStackTrace();
         }        
