@@ -10,7 +10,7 @@ public class ClientSocket2 {
 
     public static void main(String[] args) throws UnknownHostException, IOException {
         String hostname = "Localhost";
-        int port = 1112;        
+        int port = 1111;        
    
         System.out.println("connecting to port: " + port);
 
