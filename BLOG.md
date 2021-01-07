@@ -55,3 +55,32 @@ Erstellung der Unterkapitel OpenFace                    Status: Laufend
 Erstellung der Kapitel AsTeRICS Framework               Status: Laufend
 Erstellung der Fertige Inhaltverzeichnis des Proposal   Status: Abgeschlossen
 Erweiterung der StringSplitter-Plugin                   Status: Abgeschlossen
+
+**********************************************************************************
+Fortschritte in der:
+KW 50 von 7.12. bis 13.12.2020
+
+Erstellung der MouseControl-AU-Modell                   Status: Laufend
+Erstellung der MouseControl-FaceLandmarken_AU-Modell    Status: Laufend
+Erstellung der Projekt Präsentation 60%                 Status: Abgeschlossen
+Schreiben des Proposal                                  Status: Laufend
+
+**********************************************************************************
+Fortschritte in der:
+KW 51 von 14.12. bis 20.12.2020
+
+Erstellung der MouseControl-KopfRoll_AU-Modell          Status: Laufend
+Erstellung der MouseControl-FaceLandmarken_AU-Modell    Status: Laufend
+Schreiben des Proposal                                  Status: Laufend
+
+
+**********************************************************************************
+Fortschritte in der:
+KW 52 von 21.12. bis 23.12.2020
+
+Erstellung der MouseControl-KopfRoll_AU-Modell          Status: Abgeschlossen
+Erstellung der MouseControl-FaceLandmarken_AU-Modell    Status: Abgeschlossen
+Erstellung der MouseControl-gaze_AU-Modell              Status: Laufend
+Schreiben des Proposal  
+
+**********************************************************************************
