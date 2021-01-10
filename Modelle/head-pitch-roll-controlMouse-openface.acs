@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Documents\5_Semester\PROJEKT\Meetings\pitch-roll-mousecontrol-openface.acs_2021_1_2_13_26" version="20130320">
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Documents\5_Semester\PROJEKT\Modelos\pitch-roll-mousecontrol-openface.acs_2021_1_10_21_31" version="20130320">
   <modelDescription>
     <shortDescription />
     <requirements />
@@ -32,7 +32,7 @@
         <posY>41</posY>
       </layout>
     </component>
-    <component id="StringSplitter.1" type_id="asterics.StringSplitter">
+    <component id="StringSplitter.1- T. confidence, Pose" type_id="asterics.StringSplitter">
       <description>Split the string in up to 16 strings</description>
       <ports>
         <inputPort portTypeID="input">
@@ -120,7 +120,7 @@
       </properties>
       <layout>
         <posX>364</posX>
-        <posY>580</posY>
+        <posY>619</posY>
       </layout>
     </component>
     <component id="Threshold.1_kopf-links" type_id="asterics.Threshold">
@@ -339,7 +339,7 @@
         <posY>350</posY>
       </layout>
     </component>
-    <component id="StringSplitter.2" type_id="asterics.StringSplitter">
+    <component id="StringSplitter.2 AU23_r, AU26_r" type_id="asterics.StringSplitter">
       <description>Split the string in up to 16 strings</description>
       <ports>
         <inputPort portTypeID="input">
@@ -399,8 +399,8 @@
         <property name="startIndex" value="16" />
       </properties>
       <layout>
-        <posX>208</posX>
-        <posY>851</posY>
+        <posX>213</posX>
+        <posY>764</posY>
       </layout>
     </component>
     <component id="Threshold.1-AU23-click-links" type_id="asterics.Threshold">
@@ -489,7 +489,7 @@
       </ports>
       <properties>
         <property name="caption" value="Konfiguration" />
-        <property name="default" value="Move Crosshair: Head  Pitch-up/down (pitch),  left/right (roll); linksClick=Mund nach innen rollen(AU23_r); rechtsClick=Mund oeffnen(AU26_r)                            OpenFace: Record AU und Pose" />
+        <property name="default" value="Move Crosshair: Head up/down (pitch),  left/right (roll); linksClick=Spannen der Lippen (Mund nach innen rollen-AU23_r);  rechtsClick=Mund oeffnen(AU26_r) ;  doppeltClick=Lippen saugen (AU28_c )       OpenFace Einstellungen:  Webcam 1280 x 720, Record  AUs und Pose   " />
         <property name="editable" value="False" />
         <property name="fontSize" value="16" />
         <property name="textColor" value="0" />
@@ -497,8 +497,8 @@
         <property name="displayGUI" value="true" />
       </properties>
       <layout>
-        <posX>887</posX>
-        <posY>1044</posY>
+        <posX>778</posX>
+        <posY>13</posY>
       </layout>
       <gui>
         <posX>0</posX>
@@ -506,6 +506,93 @@
         <width>3000</width>
         <height>2000</height>
       </gui>
+    </component>
+    <component id="StringSplitter.1 AU28_c" type_id="asterics.StringSplitter">
+      <description>Split the string in up to 16 strings</description>
+      <ports>
+        <inputPort portTypeID="input">
+          <properties />
+        </inputPort>
+        <outputPort portTypeID="out1">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out2">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out3">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out4">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out5">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out6">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out7">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out8">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out9">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out10">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out11">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out12">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out13">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out14">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out15">
+          <properties />
+        </outputPort>
+        <outputPort portTypeID="out16">
+          <properties />
+        </outputPort>
+      </ports>
+      <properties>
+        <property name="Seperator" value="," />
+        <property name="startIndex" value="32" />
+      </properties>
+      <layout>
+        <posX>89</posX>
+        <posY>1075</posY>
+      </layout>
+    </component>
+    <component id="Threshold.1 Lip Suck" type_id="asterics.Threshold">
+      <description>Threshold Level Processor</description>
+      <ports>
+        <inputPort portTypeID="in">
+          <properties />
+        </inputPort>
+        <outputPort portTypeID="out">
+          <properties />
+        </outputPort>
+      </ports>
+      <properties>
+        <property name="thresholdHigh" value="0.9" />
+        <property name="thresholdLow" value="0.1" />
+        <property name="outputHigh" value="1" />
+        <property name="outputLow" value="0" />
+        <property name="operationMode" value="2" />
+        <property name="eventCondition" value="2" />
+      </properties>
+      <layout>
+        <posX>250</posX>
+        <posY>1246</posY>
+      </layout>
     </component>
   </components>
   <channels>
@@ -516,14 +603,14 @@
         <port id="outA" />
       </source>
       <target>
-        <component id="StringSplitter.1" />
+        <component id="StringSplitter.1- T. confidence, Pose" />
         <port id="input" />
       </target>
     </channel>
     <channel id="binding.1">
       <description />
       <source>
-        <component id="StringSplitter.1" />
+        <component id="StringSplitter.1- T. confidence, Pose" />
         <port id="out11" />
       </source>
       <target>
@@ -556,7 +643,7 @@
     <channel id="binding.5">
       <description />
       <source>
-        <component id="StringSplitter.1" />
+        <component id="StringSplitter.1- T. confidence, Pose" />
         <port id="out4" />
       </source>
       <target>
@@ -578,7 +665,7 @@
     <channel id="binding.7">
       <description />
       <source>
-        <component id="StringSplitter.1" />
+        <component id="StringSplitter.1- T. confidence, Pose" />
         <port id="out9" />
       </source>
       <target>
@@ -615,14 +702,14 @@
         <port id="outA" />
       </source>
       <target>
-        <component id="StringSplitter.2" />
+        <component id="StringSplitter.2 AU23_r, AU26_r" />
         <port id="input" />
       </target>
     </channel>
     <channel id="binding.11">
       <description />
       <source>
-        <component id="StringSplitter.2" />
+        <component id="StringSplitter.2 AU23_r, AU26_r" />
         <port id="out9" />
       </source>
       <target>
@@ -643,7 +730,7 @@
     </channel>
     <channel id="binding.13">
       <source>
-        <component id="StringSplitter.2" />
+        <component id="StringSplitter.2 AU23_r, AU26_r" />
         <port id="out11" />
       </source>
       <target>
@@ -669,6 +756,16 @@
       <target>
         <component id="Tooltip.1" />
         <port id="y" />
+      </target>
+    </channel>
+    <channel id="binding.16">
+      <source>
+        <component id="StringSplitter.1 AU28_c" />
+        <port id="out13" />
+      </source>
+      <target>
+        <component id="Threshold.1 Lip Suck" />
+        <port id="in" />
       </target>
     </channel>
   </channels>
@@ -888,6 +985,21 @@
         <target>
           <component id="Mouse.1" />
           <eventPort id="leftClick" />
+        </target>
+      </targets>
+    </eventChannel>
+    <eventChannel id="eventPosEdge_doubleClick">
+      <description />
+      <sources>
+        <source>
+          <component id="Threshold.1 Lip Suck" />
+          <eventPort id="eventPosEdge" />
+        </source>
+      </sources>
+      <targets>
+        <target>
+          <component id="Mouse.1" />
+          <eventPort id="doubleClick" />
         </target>
       </targets>
     </eventChannel>
