@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Documents\5_Semester\PROJEKT\PROJEKT_ABGABE\Modelle\head-pitch-roll-controlMouse-openface.acs_2021_1_27_15_13" version="20130320">
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Documents\5_Semester\PROJEKT\PROJEKT_ABGABE\Modelle\head-pitch-roll-controlMouse-openface.acs_2021_1_18_20_17" version="20130320">
   <modelDescription>
     <shortDescription />
     <requirements />
@@ -489,7 +489,7 @@
       </ports>
       <properties>
         <property name="caption" value="Konfiguration" />
-        <property name="default" value="Move Crosshair: Head up/down (pitch),  left/right (roll); Klick links =Spannen der Lippen (Mund nach innen rollen-AU23_r);  Klick-rechts=Mund öffnen(AU26_r) ;  Doppelklick=Lippen saugen (AU28_c )       OpenFace Einstellungen:  Webcam 1280 x 720, Record  AUs und Pose   " />
+        <property name="default" value="Move Crosshair: Head up/down (pitch),  left/right (roll); linksClick=Spannen der Lippen (Mund nach innen rollen-AU23_r);  rechtsClick=Mund oeffnen(AU26_r) ;  doppeltClick=Lippen saugen (AU28_c )       OpenFace Einstellungen:  Webcam 1280 x 720, Record  AUs und Pose   " />
         <property name="editable" value="False" />
         <property name="fontSize" value="16" />
         <property name="textColor" value="0" />

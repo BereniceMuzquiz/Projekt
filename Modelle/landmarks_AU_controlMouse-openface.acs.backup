@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Documents\5_Semester\PROJEKT\PROJEKT_ABGABE\Modelle\landmarks_AU_controlMouse-openface.acs_2021_1_27_14_21" version="20130320">
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Documents\5_Semester\PROJEKT\PROJEKT_ABGABE\Modelle\landmarks_AU_controlMouse-openface.acs_2021_1_27_14_20" version="20130320">
   <modelDescription>
     <shortDescription />
     <requirements />
@@ -492,7 +492,7 @@
       </ports>
       <properties>
         <property name="caption" value="Notizen" />
-        <property name="default" value="Verfolgung des Gesichtsmerkmal_33(Nase).     Mausbewegung = Position  der Nase.  Klick_Links =Mund öffen,  Doppelklick=Mund öffnen  (2 Sek) , Klick Rechts=Augen zu (2 Sek).           OpenFace Einstellungen: Webcam  1280x720, Record  AUs, 2D Landmaks. " />
+        <property name="default" value="Verfolgung des Gesichtsmerkmal_33(Nase).     Maus-Bewegung = Position  der Nase.  Klick_Links =Mund öffen,  Doppelklick=Mund öffnen  (2 sek) , Klick Rechts=Augen zu (2 ek).           OpenFace Einstellungen: Webcam  1280x720, Record  AUs, 2D Landmaks. " />
         <property name="editable" value="false" />
         <property name="fontSize" value="16" />
         <property name="textColor" value="0" />
@@ -501,7 +501,7 @@
       </properties>
       <layout>
         <posX>951</posX>
-        <posY>96</posY>
+        <posY>120</posY>
       </layout>
       <gui>
         <posX>72</posX>

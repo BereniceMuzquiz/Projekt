@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Documents\5_Semester\PROJEKT\PROJEKT_ABGABE\Modelle\midi_gaze_lmk_AU_openFace.acs_2021_1_27_14_44" version="20130320">
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelName="C:\Users\beren\Documents\5_Semester\PROJEKT\PROJEKT_ABGABE\Modelle\gaze-AUs-lmk-controlMouse-openFace.acs_2021_1_27_15_6" version="20130320">
   <modelDescription>
     <shortDescription />
     <requirements />
@@ -32,70 +32,6 @@
         <posY>59</posY>
       </layout>
     </component>
-    <component id="StringSplitter.1 AU26_r" type_id="asterics.StringSplitter">
-      <description>Split the string in up to 16 strings</description>
-      <ports>
-        <inputPort portTypeID="input">
-          <properties />
-        </inputPort>
-        <outputPort portTypeID="out1">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out2">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out3">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out4">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out5">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out6">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out7">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out8">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out9">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out10">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out11">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out12">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out13">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out14">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out15">
-          <properties />
-        </outputPort>
-        <outputPort portTypeID="out16">
-          <properties />
-        </outputPort>
-      </ports>
-      <properties>
-        <property name="Seperator" value="," />
-        <property name="startIndex" value="432" />
-      </properties>
-      <layout>
-        <posX>231</posX>
-        <posY>386</posY>
-      </layout>
-    </component>
     <component id="MathEvaluator.1 Au1_Au2_Brow-raise " type_id="asterics.MathEvaluator">
       <description>Mathematical expression evaluator</description>
       <ports>
@@ -119,132 +55,9 @@
         <property name="expression" value="(a+b)/2" />
       </properties>
       <layout>
-        <posX>434</posX>
-        <posY>1221</posY>
+        <posX>418</posX>
+        <posY>647</posY>
       </layout>
-    </component>
-    <component id="ButtonGrid.1 Scala" type_id="asterics.ButtonGrid">
-      <description>Keyboard which sends event after button press</description>
-      <ports />
-      <properties>
-        <property name="caption" value="Keyboard  Scala" />
-        <property name="horizontalOrientation" value="True" />
-        <property name="textColor" value="13" />
-        <property name="backgroundColor" value="13" />
-        <property name="borderColor" value="13" />
-        <property name="borderThickness" value="2" />
-        <property name="selectionFrameColor" value="13" />
-        <property name="selectionFrameThickness" value="4" />
-        <property name="displayGUI" value="true" />
-        <property name="buttonCaption1" value="alle Töne" />
-        <property name="buttonCaption2" value="harmonisch 1" />
-        <property name="buttonCaption3" value="Dur" />
-        <property name="buttonCaption4" value="harmonisch 2" />
-        <property name="buttonCaption5" value="5tone.sc" />
-        <property name="buttonCaption6" value="" />
-        <property name="buttonCaption7" value="" />
-        <property name="buttonCaption8" value="" />
-        <property name="buttonCaption9" value="" />
-        <property name="buttonCaption10" value="" />
-        <property name="buttonCaption11" value="" />
-        <property name="buttonCaption12" value="" />
-        <property name="buttonCaption13" value="" />
-        <property name="buttonCaption14" value="" />
-        <property name="buttonCaption15" value="" />
-        <property name="buttonCaption16" value="" />
-        <property name="buttonCaption17" value="" />
-        <property name="buttonCaption18" value="" />
-        <property name="buttonCaption19" value="" />
-        <property name="buttonCaption20" value="" />
-        <property name="toolTip1" value="" />
-        <property name="toolTip2" value="" />
-        <property name="toolTip3" value="" />
-        <property name="toolTip4" value="" />
-        <property name="toolTip5" value="" />
-        <property name="toolTip6" value="" />
-        <property name="toolTip7" value="" />
-        <property name="toolTip8" value="" />
-        <property name="toolTip9" value="" />
-        <property name="toolTip10" value="" />
-        <property name="toolTip11" value="" />
-        <property name="toolTip12" value="" />
-        <property name="toolTip13" value="" />
-        <property name="toolTip14" value="" />
-        <property name="toolTip15" value="" />
-        <property name="toolTip16" value="" />
-        <property name="toolTip17" value="" />
-        <property name="toolTip18" value="" />
-        <property name="toolTip19" value="" />
-        <property name="toolTip20" value="" />
-      </properties>
-      <layout>
-        <posX>474</posX>
-        <posY>502</posY>
-      </layout>
-      <gui>
-        <posX>6269</posX>
-        <posY>3676</posY>
-        <width>3250</width>
-        <height>3556</height>
-      </gui>
-    </component>
-    <component id="Quantizer.1 AU smile" type_id="asterics.Quantizer">
-      <description>Performs the quantization of the input signal</description>
-      <ports>
-        <inputPort portTypeID="input">
-          <properties />
-        </inputPort>
-        <outputPort portTypeID="output">
-          <properties />
-        </outputPort>
-      </ports>
-      <properties>
-        <property name="quantizationStep" value="1" />
-      </properties>
-      <layout>
-        <posX>577</posX>
-        <posY>159</posY>
-      </layout>
-    </component>
-    <component id="MidiPlayer.1" type_id="asterics.MidiPlayer">
-      <description>This plugin is used for MIDI applications</description>
-      <ports>
-        <inputPort portTypeID="trigger">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="pitch">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="instrument">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="scale">
-          <properties />
-        </inputPort>
-      </ports>
-      <properties>
-        <property name="midiDevice" value="Gervill" />
-        <property name="channel" value="1" />
-        <property name="instrument" value="Jazz Gt.    " />
-        <property name="triggerThreshold" value="10" />
-        <property name="triggerMax" value="100" />
-        <property name="pitchMin" value="0" />
-        <property name="pitchMax" value="5" />
-        <property name="toneScale" value="5tones.sc" />
-        <property name="playOnlyChangingNotes" value="true" />
-        <property name="displayGUI" value="true" />
-        <property name="displayNoteNames" value="True" />
-      </properties>
-      <layout>
-        <posX>839</posX>
-        <posY>300</posY>
-      </layout>
-      <gui>
-        <posX>145</posX>
-        <posY>2121</posY>
-        <width>9438</width>
-        <height>1556</height>
-      </gui>
     </component>
     <component id="StringSplitter.2 gaze mause X" type_id="asterics.StringSplitter">
       <description>Split the string in up to 16 strings</description>
@@ -306,8 +119,8 @@
         <property name="startIndex" value="0" />
       </properties>
       <layout>
-        <posX>222</posX>
-        <posY>794</posY>
+        <posX>194</posX>
+        <posY>140</posY>
       </layout>
     </component>
     <component id="Mouse.1" type_id="asterics.Mouse">
@@ -339,150 +152,9 @@
         <property name="yMax" value="0" />
       </properties>
       <layout>
-        <posX>884</posX>
-        <posY>875</posY>
+        <posX>864</posX>
+        <posY>382</posY>
       </layout>
-    </component>
-    <component id="StringDispatcher.1" type_id="asterics.StringDispatcher">
-      <description>Send text from chosen slot</description>
-      <ports>
-        <inputPort portTypeID="slotDispatch">
-          <properties />
-        </inputPort>
-        <outputPort portTypeID="output">
-          <properties />
-        </outputPort>
-      </ports>
-      <properties>
-        <property name="delay" value="300" />
-        <property name="slot1" value="alltones.sc" />
-        <property name="slot2" value="harmonic.sc" />
-        <property name="slot3" value="major30-102.sc" />
-        <property name="slot4" value="harmonic_dual40-103.sc" />
-        <property name="slot5" value="5tone.sc" />
-        <property name="slot6" value="" />
-        <property name="slot7" value="" />
-        <property name="slot8" value="" />
-        <property name="slot9" value="" />
-        <property name="slot10" value="" />
-        <property name="slot11" value="" />
-        <property name="slot12" value="" />
-        <property name="slot13" value="" />
-        <property name="slot14" value="" />
-        <property name="slot15" value="" />
-        <property name="slot16" value="" />
-        <property name="slot17" value="" />
-        <property name="slot18" value="" />
-        <property name="slot19" value="" />
-        <property name="slot20" value="" />
-      </properties>
-      <layout>
-        <posX>618</posX>
-        <posY>484</posY>
-      </layout>
-    </component>
-    <component id="StringDispatcher.2 instrument" type_id="asterics.StringDispatcher">
-      <description>Send text from chosen slot</description>
-      <ports>
-        <inputPort portTypeID="slotDispatch">
-          <properties />
-        </inputPort>
-        <outputPort portTypeID="output">
-          <properties />
-        </outputPort>
-      </ports>
-      <properties>
-        <property name="delay" value="300" />
-        <property name="slot1" value="Flute" />
-        <property name="slot2" value="Glockenspiel" />
-        <property name="slot3" value="Woodblock" />
-        <property name="slot4" value="Jazz Gt." />
-        <property name="slot5" value="Piano 1" />
-        <property name="slot6" value="" />
-        <property name="slot7" value="" />
-        <property name="slot8" value="" />
-        <property name="slot9" value="" />
-        <property name="slot10" value="" />
-        <property name="slot11" value="" />
-        <property name="slot12" value="" />
-        <property name="slot13" value="" />
-        <property name="slot14" value="" />
-        <property name="slot15" value="" />
-        <property name="slot16" value="" />
-        <property name="slot17" value="" />
-        <property name="slot18" value="" />
-        <property name="slot19" value="" />
-        <property name="slot20" value="" />
-      </properties>
-      <layout>
-        <posX>606</posX>
-        <posY>325</posY>
-      </layout>
-    </component>
-    <component id="ButtonGrid.2 instrument" type_id="asterics.ButtonGrid">
-      <description>Keyboard which sends event after button press</description>
-      <ports />
-      <properties>
-        <property name="caption" value="Keyboard Instrument" />
-        <property name="horizontalOrientation" value="True" />
-        <property name="textColor" value="13" />
-        <property name="backgroundColor" value="13" />
-        <property name="borderColor" value="13" />
-        <property name="borderThickness" value="2" />
-        <property name="selectionFrameColor" value="13" />
-        <property name="selectionFrameThickness" value="4" />
-        <property name="displayGUI" value="true" />
-        <property name="buttonCaption1" value="Flute" />
-        <property name="buttonCaption2" value="Glockenspiel" />
-        <property name="buttonCaption3" value="Woodblock" />
-        <property name="buttonCaption4" value="Jazz Gt." />
-        <property name="buttonCaption5" value="Piano 1" />
-        <property name="buttonCaption6" value="" />
-        <property name="buttonCaption7" value="" />
-        <property name="buttonCaption8" value="" />
-        <property name="buttonCaption9" value="" />
-        <property name="buttonCaption10" value="" />
-        <property name="buttonCaption11" value="" />
-        <property name="buttonCaption12" value="" />
-        <property name="buttonCaption13" value="" />
-        <property name="buttonCaption14" value="" />
-        <property name="buttonCaption15" value="" />
-        <property name="buttonCaption16" value="" />
-        <property name="buttonCaption17" value="" />
-        <property name="buttonCaption18" value="" />
-        <property name="buttonCaption19" value="" />
-        <property name="buttonCaption20" value="" />
-        <property name="toolTip1" value="" />
-        <property name="toolTip2" value="" />
-        <property name="toolTip3" value="" />
-        <property name="toolTip4" value="" />
-        <property name="toolTip5" value="" />
-        <property name="toolTip6" value="" />
-        <property name="toolTip7" value="" />
-        <property name="toolTip8" value="" />
-        <property name="toolTip9" value="" />
-        <property name="toolTip10" value="" />
-        <property name="toolTip11" value="" />
-        <property name="toolTip12" value="" />
-        <property name="toolTip13" value="" />
-        <property name="toolTip14" value="" />
-        <property name="toolTip15" value="" />
-        <property name="toolTip16" value="" />
-        <property name="toolTip17" value="" />
-        <property name="toolTip18" value="" />
-        <property name="toolTip19" value="" />
-        <property name="toolTip20" value="" />
-      </properties>
-      <layout>
-        <posX>471</posX>
-        <posY>335</posY>
-      </layout>
-      <gui>
-        <posX>2770</posX>
-        <posY>3676</posY>
-        <width>3438</width>
-        <height>3556</height>
-      </gui>
     </component>
     <component id="MathEvaluator.1 radians to degrees" type_id="asterics.MathEvaluator">
       <description>Mathematical expression evaluator</description>
@@ -507,11 +179,11 @@
         <property name="expression" value="a*3.14179/180" />
       </properties>
       <layout>
-        <posX>340</posX>
-        <posY>884</posY>
+        <posX>313</posX>
+        <posY>391</posY>
       </layout>
     </component>
-    <component id="TextDisplay.1 nose centered" type_id="asterics.TextDisplay">
+    <component id="TextDisplay.1 Face centered" type_id="asterics.TextDisplay">
       <description>GUI component, which displays text.</description>
       <ports>
         <inputPort portTypeID="input">
@@ -527,14 +199,14 @@
         <property name="displayGUI" value="true" />
       </properties>
       <layout>
-        <posX>815</posX>
-        <posY>1793</posY>
+        <posX>799</posX>
+        <posY>1219</posY>
       </layout>
       <gui>
-        <posX>3520</posX>
-        <posY>676</posY>
-        <width>2875</width>
-        <height>1333</height>
+        <posX>5572</posX>
+        <posY>6343</posY>
+        <width>1750</width>
+        <height>1111</height>
       </gui>
     </component>
     <component id="CrosshairCursorControl.1" type_id="asterics.CrosshairCursorControl">
@@ -564,8 +236,8 @@
         <property name="absoluteValues" value="false" />
         <property name="autoColorAxis" value="true" />
         <property name="highlightClick" value="true" />
-        <property name="wrapAround" value="False" />
-        <property name="taskbarOffset" value="True" />
+        <property name="wrapAround" value="True" />
+        <property name="taskbarOffset" value="False" />
         <property name="clickEventTime" value="0" />
         <property name="lineWidth" value="5" />
         <property name="baseVelocity" value="20" />
@@ -574,8 +246,8 @@
         <property name="maxVelocity" value="200" />
       </properties>
       <layout>
-        <posX>694</posX>
-        <posY>757</posY>
+        <posX>674</posX>
+        <posY>264</posY>
       </layout>
     </component>
     <component id="Threshold.1 right" type_id="asterics.Threshold">
@@ -597,8 +269,8 @@
         <property name="eventCondition" value="2" />
       </properties>
       <layout>
-        <posX>566</posX>
-        <posY>742</posY>
+        <posX>546</posX>
+        <posY>249</posY>
       </layout>
     </component>
     <component id="Threshold.2 left" type_id="asterics.Threshold">
@@ -620,100 +292,11 @@
         <property name="eventCondition" value="2" />
       </properties>
       <layout>
-        <posX>570</posX>
-        <posY>936</posY>
+        <posX>550</posX>
+        <posY>443</posY>
       </layout>
     </component>
-    <component id="ButtonGrid.3 Volume" type_id="asterics.ButtonGrid">
-      <description>Keyboard which sends event after button press</description>
-      <ports />
-      <properties>
-        <property name="caption" value="Volume" />
-        <property name="horizontalOrientation" value="true" />
-        <property name="textColor" value="13" />
-        <property name="backgroundColor" value="13" />
-        <property name="borderColor" value="13" />
-        <property name="borderThickness" value="2" />
-        <property name="selectionFrameColor" value="13" />
-        <property name="selectionFrameThickness" value="4" />
-        <property name="displayGUI" value="true" />
-        <property name="buttonCaption1" value="Vomume Up" />
-        <property name="buttonCaption2" value="Volume Down" />
-        <property name="buttonCaption3" value="" />
-        <property name="buttonCaption4" value="" />
-        <property name="buttonCaption5" value="" />
-        <property name="buttonCaption6" value="" />
-        <property name="buttonCaption7" value="" />
-        <property name="buttonCaption8" value="" />
-        <property name="buttonCaption9" value="" />
-        <property name="buttonCaption10" value="" />
-        <property name="buttonCaption11" value="" />
-        <property name="buttonCaption12" value="" />
-        <property name="buttonCaption13" value="" />
-        <property name="buttonCaption14" value="" />
-        <property name="buttonCaption15" value="" />
-        <property name="buttonCaption16" value="" />
-        <property name="buttonCaption17" value="" />
-        <property name="buttonCaption18" value="" />
-        <property name="buttonCaption19" value="" />
-        <property name="buttonCaption20" value="" />
-        <property name="toolTip1" value="" />
-        <property name="toolTip2" value="" />
-        <property name="toolTip3" value="" />
-        <property name="toolTip4" value="" />
-        <property name="toolTip5" value="" />
-        <property name="toolTip6" value="" />
-        <property name="toolTip7" value="" />
-        <property name="toolTip8" value="" />
-        <property name="toolTip9" value="" />
-        <property name="toolTip10" value="" />
-        <property name="toolTip11" value="" />
-        <property name="toolTip12" value="" />
-        <property name="toolTip13" value="" />
-        <property name="toolTip14" value="" />
-        <property name="toolTip15" value="" />
-        <property name="toolTip16" value="" />
-        <property name="toolTip17" value="" />
-        <property name="toolTip18" value="" />
-        <property name="toolTip19" value="" />
-        <property name="toolTip20" value="" />
-      </properties>
-      <layout>
-        <posX>697</posX>
-        <posY>103</posY>
-      </layout>
-      <gui>
-        <posX>145</posX>
-        <posY>4676</posY>
-        <width>2562</width>
-        <height>2556</height>
-      </gui>
-    </component>
-    <component id="EventCounter.1 volume" type_id="asterics.EventCounter">
-      <description>Two-direction event counter</description>
-      <ports>
-        <inputPort portTypeID="setValue">
-          <properties />
-        </inputPort>
-        <outputPort portTypeID="output">
-          <properties />
-        </outputPort>
-      </ports>
-      <properties>
-        <property name="mode" value="3" />
-        <property name="minValue" value="0" />
-        <property name="maxValue" value="10" />
-        <property name="initialValue" value="2" />
-        <property name="wrapAround" value="false" />
-        <property name="sendInitialValue" value="true" />
-        <property name="autoSend" value="true" />
-      </properties>
-      <layout>
-        <posX>832</posX>
-        <posY>110</posY>
-      </layout>
-    </component>
-    <component id="TextDisplay.2 Volume" type_id="asterics.TextDisplay">
+    <component id="TextDisplay.1 X position" type_id="asterics.TextDisplay">
       <description>GUI component, which displays text.</description>
       <ports>
         <inputPort portTypeID="input">
@@ -721,7 +304,7 @@
         </inputPort>
       </ports>
       <properties>
-        <property name="caption" value="Volume" />
+        <property name="caption" value="X position" />
         <property name="default" value="" />
         <property name="textPosition" value="1" />
         <property name="textColor" value="0" />
@@ -729,14 +312,14 @@
         <property name="displayGUI" value="true" />
       </properties>
       <layout>
-        <posX>981</posX>
-        <posY>315</posY>
+        <posX>993</posX>
+        <posY>290</posY>
       </layout>
       <gui>
-        <posX>145</posX>
-        <posY>3787</posY>
-        <width>2500</width>
-        <height>778</height>
+        <posX>2197</posX>
+        <posY>2565</posY>
+        <width>1250</width>
+        <height>1000</height>
       </gui>
     </component>
     <component id="StringSplitter.1 nose position" type_id="asterics.StringSplitter">
@@ -799,8 +382,8 @@
         <property name="startIndex" value="320" />
       </properties>
       <layout>
-        <posX>97</posX>
-        <posY>1648</posY>
+        <posX>163</posX>
+        <posY>1030</posY>
       </layout>
     </component>
     <component id="Slider.1 Webcam Resolution" type_id="asterics.Slider">
@@ -834,12 +417,12 @@
         <property name="displayGUI" value="true" />
       </properties>
       <layout>
-        <posX>326</posX>
-        <posY>1634</posY>
+        <posX>310</posX>
+        <posY>1060</posY>
       </layout>
       <gui>
-        <posX>145</posX>
-        <posY>8565</posY>
+        <posX>5510</posX>
+        <posY>8676</posY>
         <width>4062</width>
         <height>1000</height>
       </gui>
@@ -867,8 +450,8 @@
         <property name="expression" value="a*( b/c )" />
       </properties>
       <layout>
-        <posX>398</posX>
-        <posY>1784</posY>
+        <posX>382</posX>
+        <posY>1210</posY>
       </layout>
     </component>
     <component id="MathEvaluator.3 nose center on X" type_id="asterics.MathEvaluator">
@@ -894,8 +477,8 @@
         <property name="expression" value="a-(b*1.78/2)" />
       </properties>
       <layout>
-        <posX>539</posX>
-        <posY>1787</posY>
+        <posX>523</posX>
+        <posY>1213</posY>
       </layout>
     </component>
     <component id="Quantizer.2 nose centered" type_id="asterics.Quantizer">
@@ -912,8 +495,8 @@
         <property name="quantizationStep" value="1" />
       </properties>
       <layout>
-        <posX>677</posX>
-        <posY>1799</posY>
+        <posX>661</posX>
+        <posY>1225</posY>
       </layout>
     </component>
     <component id="Slider.2 Screen Resolution" type_id="asterics.Slider">
@@ -947,12 +530,12 @@
         <property name="displayGUI" value="true" />
       </properties>
       <layout>
-        <posX>513</posX>
-        <posY>1637</posY>
+        <posX>497</posX>
+        <posY>1063</posY>
       </layout>
       <gui>
-        <posX>145</posX>
-        <posY>7343</posY>
+        <posX>5510</posX>
+        <posY>7565</posY>
         <width>4062</width>
         <height>1112</height>
       </gui>
@@ -1012,74 +595,14 @@
         <property name="toolTip20" value="" />
       </properties>
       <layout>
-        <posX>716</posX>
-        <posY>948</posY>
+        <posX>704</posX>
+        <posY>456</posY>
       </layout>
       <gui>
-        <posX>4332</posX>
-        <posY>7343</posY>
-        <width>1250</width>
-        <height>2000</height>
-      </gui>
-    </component>
-    <component id="MathEvaluator.1 volume" type_id="asterics.MathEvaluator">
-      <description>Mathematical expression evaluator</description>
-      <ports>
-        <inputPort portTypeID="inA">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="inB">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="inC">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="inD">
-          <properties />
-        </inputPort>
-        <outputPort portTypeID="out">
-          <properties />
-        </outputPort>
-      </ports>
-      <properties>
-        <property name="expression" value="a*10" />
-      </properties>
-      <layout>
-        <posX>973</posX>
-        <posY>118</posY>
-      </layout>
-    </component>
-    <component id="TextArea.1  Notizen" type_id="asterics.TextArea">
-      <description>GUI component, which displays text.</description>
-      <ports>
-        <inputPort portTypeID="setText">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="appendText">
-          <properties />
-        </inputPort>
-        <outputPort portTypeID="text">
-          <properties />
-        </outputPort>
-      </ports>
-      <properties>
-        <property name="caption" value="Notizen" />
-        <property name="default" value="Mund öffnen= erzeugt Töne,  Mausbewegung(rechts-links)=Blickrichtung,   Maus klicken= Augenbrauen heben.    OpenFace: Webcam =1280x720,  Record: AUs, 2D_landmarks, gaze" />
-        <property name="editable" value="false" />
-        <property name="fontSize" value="16" />
-        <property name="textColor" value="0" />
-        <property name="backgroundColor" value="11" />
-        <property name="displayGUI" value="true" />
-      </properties>
-      <layout>
-        <posX>1145</posX>
-        <posY>60</posY>
-      </layout>
-      <gui>
-        <posX>197</posX>
-        <posY>454</posY>
-        <width>3250</width>
-        <height>1556</height>
+        <posX>4072</posX>
+        <posY>2121</posY>
+        <width>688</width>
+        <height>1667</height>
       </gui>
     </component>
     <component id="MathEvaluator.5 Y mouse centered" type_id="asterics.MathEvaluator">
@@ -1105,8 +628,8 @@
         <property name="expression" value="a/2" />
       </properties>
       <layout>
-        <posX>717</posX>
-        <posY>1647</posY>
+        <posX>701</posX>
+        <posY>1073</posY>
       </layout>
     </component>
     <component id="TextDisplay.1 Y Position" type_id="asterics.TextDisplay">
@@ -1117,7 +640,7 @@
         </inputPort>
       </ports>
       <properties>
-        <property name="caption" value="Mouse Position  Y" />
+        <property name="caption" value="Text Display" />
         <property name="default" value="" />
         <property name="textPosition" value="1" />
         <property name="textColor" value="0" />
@@ -1125,17 +648,17 @@
         <property name="displayGUI" value="true" />
       </properties>
       <layout>
-        <posX>1019</posX>
-        <posY>953</posY>
+        <posX>999</posX>
+        <posY>460</posY>
       </layout>
       <gui>
-        <posX>6822</posX>
-        <posY>667</posY>
-        <width>1750</width>
-        <height>1333</height>
+        <posX>2197</posX>
+        <posY>1454</posY>
+        <width>1250</width>
+        <height>667</height>
       </gui>
     </component>
-    <component id="MathEvaluator.5 angle (Optimierungs-Parameter)" type_id="asterics.MathEvaluator">
+    <component id="MathEvaluator.5 angle (mm)" type_id="asterics.MathEvaluator">
       <description>Mathematical expression evaluator</description>
       <ports>
         <inputPort portTypeID="inA">
@@ -1158,62 +681,9 @@
         <property name="expression" value="a*1000" />
       </properties>
       <layout>
-        <posX>459</posX>
-        <posY>859</posY>
+        <posX>427</posX>
+        <posY>378</posY>
       </layout>
-    </component>
-    <component id="MathEvaluator.1 open mouth" type_id="asterics.MathEvaluator">
-      <description>Mathematical expression evaluator</description>
-      <ports>
-        <inputPort portTypeID="inA">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="inB">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="inC">
-          <properties />
-        </inputPort>
-        <inputPort portTypeID="inD">
-          <properties />
-        </inputPort>
-        <outputPort portTypeID="out">
-          <properties />
-        </outputPort>
-      </ports>
-      <properties>
-        <property name="expression" value="a+0" />
-      </properties>
-      <layout>
-        <posX>366</posX>
-        <posY>161</posY>
-      </layout>
-    </component>
-    <component id="TextDisplay.1 open mouth" type_id="asterics.TextDisplay">
-      <description>GUI component, which displays text.</description>
-      <ports>
-        <inputPort portTypeID="input">
-          <properties />
-        </inputPort>
-      </ports>
-      <properties>
-        <property name="caption" value="open mouth" />
-        <property name="default" value="" />
-        <property name="textPosition" value="1" />
-        <property name="textColor" value="0" />
-        <property name="backgroundColor" value="11" />
-        <property name="displayGUI" value="true" />
-      </properties>
-      <layout>
-        <posX>523</posX>
-        <posY>11</posY>
-      </layout>
-      <gui>
-        <posX>7457</posX>
-        <posY>7343</posY>
-        <width>1688</width>
-        <height>2000</height>
-      </gui>
     </component>
     <component id="Threshold.1 brow-raise left click" type_id="asterics.Threshold">
       <description>Threshold Level Processor</description>
@@ -1234,8 +704,8 @@
         <property name="eventCondition" value="2" />
       </properties>
       <layout>
-        <posX>645</posX>
-        <posY>1224</posY>
+        <posX>629</posX>
+        <posY>650</posY>
       </layout>
     </component>
     <component id="StringSplitter.1 AU1_r, AU2_r" type_id="asterics.StringSplitter">
@@ -1298,8 +768,8 @@
         <property name="startIndex" value="416" />
       </properties>
       <layout>
-        <posX>221</posX>
-        <posY>1327</posY>
+        <posX>204</posX>
+        <posY>627</posY>
       </layout>
     </component>
     <component id="TextDisplay.1 brow-raise" type_id="asterics.TextDisplay">
@@ -1318,14 +788,14 @@
         <property name="displayGUI" value="true" />
       </properties>
       <layout>
-        <posX>540</posX>
-        <posY>1380</posY>
+        <posX>524</posX>
+        <posY>806</posY>
       </layout>
       <gui>
-        <posX>5708</posX>
-        <posY>7343</posY>
-        <width>1625</width>
-        <height>2000</height>
+        <posX>7385</posX>
+        <posY>6343</posY>
+        <width>2062</width>
+        <height>1111</height>
       </gui>
     </component>
     <component id="MathEvaluator.1 mouse X" type_id="asterics.MathEvaluator">
@@ -1351,23 +821,45 @@
         <property name="expression" value="a+5" />
       </properties>
       <layout>
-        <posX>865</posX>
-        <posY>696</posY>
+        <posX>845</posX>
+        <posY>203</posY>
       </layout>
+    </component>
+    <component id="TextArea.1 Notizen" type_id="asterics.TextArea">
+      <description>GUI component, which displays text.</description>
+      <ports>
+        <inputPort portTypeID="setText">
+          <properties />
+        </inputPort>
+        <inputPort portTypeID="appendText">
+          <properties />
+        </inputPort>
+        <outputPort portTypeID="text">
+          <properties />
+        </outputPort>
+      </ports>
+      <properties>
+        <property name="caption" value="Notizen" />
+        <property name="default" value="Mausbewegung(links-rechts)=Blickrichtung, Mauskclick=Augenbrauen heben,  Face centered muss  nahe  0 sein.   OpenFace:  webcam= 1280x720,   Record:  AUs,  2D landmarks, gaze" />
+        <property name="editable" value="false" />
+        <property name="fontSize" value="16" />
+        <property name="textColor" value="0" />
+        <property name="backgroundColor" value="11" />
+        <property name="displayGUI" value="true" />
+      </properties>
+      <layout>
+        <posX>444</posX>
+        <posY>21</posY>
+      </layout>
+      <gui>
+        <posX>5635</posX>
+        <posY>4898</posY>
+        <width>3812</width>
+        <height>1222</height>
+      </gui>
     </component>
   </components>
   <channels>
-    <channel id="binding.0">
-      <description />
-      <source>
-        <component id="ClientSocket.1" />
-        <port id="outA" />
-      </source>
-      <target>
-        <component id="StringSplitter.1 AU26_r" />
-        <port id="input" />
-      </target>
-    </channel>
     <channel id="binding.46">
       <source>
         <component id="StringSplitter.1 AU1_r, AU2_r" />
@@ -1389,28 +881,6 @@
         <port id="inA" />
       </target>
     </channel>
-    <channel id="binding.4">
-      <description />
-      <source>
-        <component id="StringDispatcher.1" />
-        <port id="output" />
-      </source>
-      <target>
-        <component id="MidiPlayer.1" />
-        <port id="scale" />
-      </target>
-    </channel>
-    <channel id="binding.6">
-      <description />
-      <source>
-        <component id="Quantizer.1 AU smile" />
-        <port id="output" />
-      </source>
-      <target>
-        <component id="MidiPlayer.1" />
-        <port id="pitch" />
-      </target>
-    </channel>
     <channel id="binding.44">
       <source>
         <component id="MathEvaluator.1 Au1_Au2_Brow-raise " />
@@ -1419,16 +889,6 @@
       <target>
         <component id="Threshold.1 brow-raise left click" />
         <port id="in" />
-      </target>
-    </channel>
-    <channel id="binding.41">
-      <source>
-        <component id="MathEvaluator.1 open mouth" />
-        <port id="out" />
-      </source>
-      <target>
-        <component id="Quantizer.1 AU smile" />
-        <port id="input" />
       </target>
     </channel>
     <channel id="binding.10">
@@ -1442,24 +902,13 @@
         <port id="input" />
       </target>
     </channel>
-    <channel id="binding.11">
-      <description />
-      <source>
-        <component id="StringDispatcher.2 instrument" />
-        <port id="output" />
-      </source>
-      <target>
-        <component id="MidiPlayer.1" />
-        <port id="instrument" />
-      </target>
-    </channel>
     <channel id="binding.32">
       <source>
         <component id="MathEvaluator.1 radians to degrees" />
         <port id="out" />
       </source>
       <target>
-        <component id="MathEvaluator.5 angle (Optimierungs-Parameter)" />
+        <component id="MathEvaluator.5 angle (mm)" />
         <port id="inA" />
       </target>
     </channel>
@@ -1476,7 +925,7 @@
     </channel>
     <channel id="binding.34">
       <source>
-        <component id="MathEvaluator.5 angle (Optimierungs-Parameter)" />
+        <component id="MathEvaluator.5 angle (mm)" />
         <port id="out" />
       </source>
       <target>
@@ -1486,32 +935,12 @@
     </channel>
     <channel id="binding.33">
       <source>
-        <component id="MathEvaluator.5 angle (Optimierungs-Parameter)" />
+        <component id="MathEvaluator.5 angle (mm)" />
         <port id="out" />
       </source>
       <target>
         <component id="Threshold.1 right" />
         <port id="in" />
-      </target>
-    </channel>
-    <channel id="binding.37">
-      <source>
-        <component id="MathEvaluator.1 volume" />
-        <port id="out" />
-      </source>
-      <target>
-        <component id="MidiPlayer.1" />
-        <port id="trigger" />
-      </target>
-    </channel>
-    <channel id="binding.36">
-      <source>
-        <component id="EventCounter.1 volume" />
-        <port id="output" />
-      </source>
-      <target>
-        <component id="MathEvaluator.1 volume" />
-        <port id="inA" />
       </target>
     </channel>
     <channel id="binding.29">
@@ -1522,6 +951,16 @@
       <target>
         <component id="MathEvaluator.5 Y mouse centered" />
         <port id="inA" />
+      </target>
+    </channel>
+    <channel id="binding.25">
+      <source>
+        <component id="Mouse.1" />
+        <port id="outX" />
+      </source>
+      <target>
+        <component id="TextDisplay.1 X position" />
+        <port id="input" />
       </target>
     </channel>
     <channel id="out6ATStringSplitter.1_TO_inAATMathEvaluator.2">
@@ -1599,34 +1038,14 @@
         <port id="input" />
       </target>
     </channel>
-    <channel id="binding.38">
-      <source>
-        <component id="MathEvaluator.1 volume" />
-        <port id="out" />
-      </source>
-      <target>
-        <component id="TextDisplay.2 Volume" />
-        <port id="input" />
-      </target>
-    </channel>
     <channel id="binding.35">
       <source>
         <component id="Quantizer.2 nose centered" />
         <port id="output" />
       </source>
       <target>
-        <component id="TextDisplay.1 nose centered" />
+        <component id="TextDisplay.1 Face centered" />
         <port id="input" />
-      </target>
-    </channel>
-    <channel id="binding.39">
-      <source>
-        <component id="StringSplitter.1 AU26_r" />
-        <port id="out12" />
-      </source>
-      <target>
-        <component id="MathEvaluator.1 open mouth" />
-        <port id="inA" />
       </target>
     </channel>
     <channel id="binding.28">
@@ -1656,16 +1075,6 @@
       </source>
       <target>
         <component id="TextDisplay.1 Y Position" />
-        <port id="input" />
-      </target>
-    </channel>
-    <channel id="binding.42">
-      <source>
-        <component id="MathEvaluator.1 open mouth" />
-        <port id="out" />
-      </source>
-      <target>
-        <component id="TextDisplay.1 open mouth" />
         <port id="input" />
       </target>
     </channel>
@@ -1702,141 +1111,6 @@
     </channel>
   </channels>
   <eventChannels>
-    <eventChannel id="button1_dispatchSlot1">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.1 Scala" />
-          <eventPort id="button1" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.1" />
-          <eventPort id="dispatchSlot1" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button2_dispatchSlot2">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.1 Scala" />
-          <eventPort id="button2" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.1" />
-          <eventPort id="dispatchSlot2" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button3_dispatchSlot3">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.1 Scala" />
-          <eventPort id="button3" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.1" />
-          <eventPort id="dispatchSlot3" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button4_dispatchSlot4">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.1 Scala" />
-          <eventPort id="button4" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.1" />
-          <eventPort id="dispatchSlot4" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button1_dispatchSlot1">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.2 instrument" />
-          <eventPort id="button1" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.2 instrument" />
-          <eventPort id="dispatchSlot1" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button2_dispatchSlot2">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.2 instrument" />
-          <eventPort id="button2" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.2 instrument" />
-          <eventPort id="dispatchSlot2" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button4_dispatchSlot4">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.2 instrument" />
-          <eventPort id="button4" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.2 instrument" />
-          <eventPort id="dispatchSlot4" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button3_dispatchSlot3">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.2 instrument" />
-          <eventPort id="button3" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.2 instrument" />
-          <eventPort id="dispatchSlot3" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button5_dispatchSlot5">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.2 instrument" />
-          <eventPort id="button5" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.2 instrument" />
-          <eventPort id="dispatchSlot5" />
-        </target>
-      </targets>
-    </eventChannel>
     <eventChannel id="eventNegEdge_startMoveRight">
       <description />
       <sources>
@@ -1897,36 +1171,6 @@
         </target>
       </targets>
     </eventChannel>
-    <eventChannel id="button1_increase">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.3 Volume" />
-          <eventPort id="button1" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="EventCounter.1 volume" />
-          <eventPort id="increase" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button2_decrease">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.3 Volume" />
-          <eventPort id="button2" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="EventCounter.1 volume" />
-          <eventPort id="decrease" />
-        </target>
-      </targets>
-    </eventChannel>
     <eventChannel id="button1_enablePlugin">
       <description />
       <sources>
@@ -1954,21 +1198,6 @@
         <target>
           <component id="CrosshairCursorControl.1" />
           <eventPort id="disablePlugin" />
-        </target>
-      </targets>
-    </eventChannel>
-    <eventChannel id="button5_dispatchSlot5">
-      <description />
-      <sources>
-        <source>
-          <component id="ButtonGrid.1 Scala" />
-          <eventPort id="button5" />
-        </source>
-      </sources>
-      <targets>
-        <target>
-          <component id="StringDispatcher.1" />
-          <eventPort id="dispatchSlot5" />
         </target>
       </targets>
     </eventChannel>
@@ -2005,15 +1234,15 @@
   </eventChannels>
   <modelGUI>
     <Decoration>true</Decoration>
-    <Fullscreen>true</Fullscreen>
+    <Fullscreen>false</Fullscreen>
     <AlwaysOnTop>false</AlwaysOnTop>
     <ToSystemTray>false</ToSystemTray>
     <ShopControlPanel>true</ShopControlPanel>
     <AREGUIWindow>
-      <posX>100</posX>
-      <posY>22</posY>
-      <width>10010</width>
-      <height>10000</height>
+      <posX>5525</posX>
+      <posY>4356</posY>
+      <width>4500</width>
+      <height>5556</height>
     </AREGUIWindow>
   </modelGUI>
 </model>

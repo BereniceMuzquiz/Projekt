@@ -66,7 +66,7 @@ public class ClientSocketInstance extends AbstractRuntimeComponentInstance
 	// Usage of an event trigger port e.g.: etpMyEtPort.raiseEvent();
 
 	String propHostname = "localhost";
-	int propPort = 1112;
+	int propPort = 1111;
 	int propProtocol = 0;
 
 	// declare member variables here
@@ -322,11 +322,12 @@ public class ClientSocketInstance extends AbstractRuntimeComponentInstance
 					BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 
 					writer.println(clientSocket.getInetAddress());
-                    writer.flush();                
+					writer.flush();
+					Thread.sleep(2000);                
 
                     do {
-							String line = reader.readLine();
-							opOutA.sendData(ConversionUtils.stringToBytes(line));
+						String line = reader.readLine();
+						opOutA.sendData(ConversionUtils.stringToBytes(line));
                                                      
 					} while (reader.ready());
 					writer.close();
